@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import List from './containers/List'
 
-ReactDOM.render(<h1>Allinllachu huaujiy!</h1>, document.getElementById('root'))
+ReactDOM.render(<List />, document.getElementById('root'))
 
 console.log("Aqui estamos!!")
